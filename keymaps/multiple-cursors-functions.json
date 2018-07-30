@@ -1,22 +1,22 @@
 {
-  ".platform-darwin, .platform-win32, .platform-linux": {
+  ".multiple-cursors-functions .platform-darwin, .platform-win32, .platform-linux": {
     "ctrl-alt-r": "multiple-cursors-functions:reverse-selections",
     "ctrl-alt-n": "multiple-cursors-functions:insert-numbers-simple",
     "ctrl-alt-l": "multiple-cursors-functions:insert-letters",
     "ctrl-alt-0": "multiple-cursors-functions:insert-numbers"
   },
 
-  ".eirikhalvard-mode atom-text-editor[mini]": {
+  "atom-text-editor[mini]": {
     "enter": "core:confirm",
     "escape": "core:cancel"
   },
-  ".platform-darwin .eirikhalvard-mode atom-text-editor[mini]": {
+  ".platform-darwin atom-text-editor[mini]": {
     "cmd-w": "core:cancel"
   },
-  ".platform-win32 .eirikhalvard-mode atom-text-editor[mini]": {
+  ".platform-win32 atom-text-editor[mini]": {
     "ctrl-w": "core:cancel"
   },
-  ".platform-linux .eirikhalvard-mode atom-text-editor[mini]": {
+  ".platform-linux atom-text-editor[mini]": {
     "ctrl-w": "core:cancel"
   }
 }
