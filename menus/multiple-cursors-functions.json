@@ -1,22 +1,26 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle multiple-cursors-functions",
-        "command": "multiple-cursors-functions:toggle"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
       "submenu": [
         {
-          "label": "multiple-cursors-functions",
+          "label": "Multiple Cursors Functions",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "multiple-cursors-functions:toggle"
+              "label": "Reverse selections",
+              "command": "multiple-cursors-functions:reverse-selections"
+            },
+            {
+              "label": "Insert letters",
+              "command": "multiple-cursors-functions:insert-letters"
+            },
+            {
+              "label": "Insert numbers",
+              "command": "multiple-cursors-functions:insert-numbers"
+            },
+            {
+              "label": "Insert numbers simple",
+              "command": "multiple-cursors-functions:insert-numbers-simple"
             }
           ]
         }

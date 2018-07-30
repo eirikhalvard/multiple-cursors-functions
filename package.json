@@ -2,17 +2,23 @@
   "name": "multiple-cursors-functions",
   "main": "./lib/multiple-cursors-functions",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "multiple-cursors-functions:toggle"
+  "description": "A package that adds more functions for multiple cursors.",
+  "author": {
+    "name": "Eirik Halvard Sæther",
+    "email": "eirik.halvard.95@gmail.com",
+    "url": "https://github.com/eirikhalvard"
   },
-  "repository": "https://github.com/atom/multiple-cursors-functions",
+  "repository": "https://github.com/eirikhalvard/multiple-cursors-functions",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "keywords": [
+    "atom",
+    "cursors",
+    "multiple cursors",
+    "insert numbers",
+    "insert letters",
+    "reverse selections"
+  ]
 }
