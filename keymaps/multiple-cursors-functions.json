@@ -1,12 +1,9 @@
 {
-  ".multiple-cursors-functions .platform-darwin .platform-win32 .platform-linux": {
+  "atom-text-editor[mini]": {
     "ctrl-alt-r": "multiple-cursors-functions:reverse-selections",
     "ctrl-alt-n": "multiple-cursors-functions:insert-numbers-simple",
     "ctrl-alt-l": "multiple-cursors-functions:insert-letters",
-    "ctrl-alt-0": "multiple-cursors-functions:insert-numbers"
-  },
-
-  "atom-text-editor[mini]": {
+    "ctrl-alt-0": "multiple-cursors-functions:insert-numbers",
     "enter": "core:confirm",
     "escape": "core:cancel"
   },
