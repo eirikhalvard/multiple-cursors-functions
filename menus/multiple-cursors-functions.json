@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle multiple-cursors-functions",
+        "command": "multiple-cursors-functions:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "multiple-cursors-functions",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "multiple-cursors-functions:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
