@@ -4,7 +4,7 @@ A atom package that adds more functions for multiple cursors
 
 ## Demonstration
 
-![Demonstration](https://media.giphy.com/media/g4IN2oQqUsgzpCRlPQ/giphy.gif)
+![Demonstration](https://i.giphy.com/media/g4IN2oQqUsgzpCRlPQ/giphy.webp)
 
 ## Functions
 
