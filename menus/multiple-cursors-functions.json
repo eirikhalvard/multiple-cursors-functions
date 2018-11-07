@@ -21,6 +21,14 @@
             {
               "label": "Insert numbers simple",
               "command": "multiple-cursors-functions:insert-numbers-simple"
+            },
+            {
+              "label": "Split selections",
+              "command": "multiple-cursors-functions:split-selections"
+            },
+            {
+              "label": "Selections to cursors",
+              "command": "multiple-cursors-functions:selections-to-cursors"
             }
           ]
         }
