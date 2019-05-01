@@ -15,12 +15,20 @@
               "command": "multiple-cursors-functions:insert-letters"
             },
             {
+              "label": "Insert text",
+              "command": "multiple-cursors-functions:insert-text"
+            },
+            {
               "label": "Insert numbers",
               "command": "multiple-cursors-functions:insert-numbers"
             },
             {
-              "label": "Insert numbers simple",
-              "command": "multiple-cursors-functions:insert-numbers-simple"
+              "label": "Split selections",
+              "command": "multiple-cursors-functions:split-selections"
+            },
+            {
+              "label": "Selections to cursors",
+              "command": "multiple-cursors-functions:selections-to-cursors"
             }
           ]
         }
