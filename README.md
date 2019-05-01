@@ -24,13 +24,13 @@ Reverses the current selections. For each cursor it also selects the surrounding
 
 #### Insert Letters
 
-Inserts letters on the current cursors
+Inserts letters on the current cursors, starting at a
 
 - function_call(arg\_ **|** , arg\_ **|** , arg\_ **|** )
 
   ⭆ function_call(arg_a **|** , arg_b **|** , arg_c **|** )
 
-#### Insert Numbers Simple
+#### Insert Numbers
 
 Inserts numbers on the current cursors, starting at 0.
 
@@ -38,9 +38,9 @@ Inserts numbers on the current cursors, starting at 0.
 
   ⭆ function_call(arg_0 **|** , arg_1 **|** , arg_2 **|** )
 
-#### Insert Numbers
+#### Insert Text
 
-Opens up a dialog, which lets you choose a starting value and an increment value to insert numbers on the current cursors.
+Opens up a dialog, which lets you choose a starting value and an increment value to insert letters or numbers on the current cursors. Starting value can be a single letter or a whole number, increment can be a whole number.
 
 - function_call(positive_number\_ **|** , positive_number\_ **|** , positive_number\_ **|** )
 
@@ -53,6 +53,12 @@ Opens up a dialog, which lets you choose a starting value and an increment value
   ⭆ _The user inserts "1:2" in the dialog box_
 
   ⭆ function_call(odd_number_1 **|** , odd_number_3 **|** , odd_number_5 **|** )
+
+- function_call(variable\_ **|** , variable\_ **|** , variable\_ **|** )
+
+  ⭆ _The user inserts "e:-2" in the dialog box_
+
+  ⭆ function_call(variable_e **|** , variable_c **|** , variable_a **|** )  
 
 #### Split Selections
 

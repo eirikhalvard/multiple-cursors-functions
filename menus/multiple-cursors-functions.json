@@ -15,12 +15,12 @@
               "command": "multiple-cursors-functions:insert-letters"
             },
             {
-              "label": "Insert numbers",
-              "command": "multiple-cursors-functions:insert-numbers"
+              "label": "Insert text",
+              "command": "multiple-cursors-functions:insert-text"
             },
             {
-              "label": "Insert numbers simple",
-              "command": "multiple-cursors-functions:insert-numbers-simple"
+              "label": "Insert numbers",
+              "command": "multiple-cursors-functions:insert-numbers"
             },
             {
               "label": "Split selections",
